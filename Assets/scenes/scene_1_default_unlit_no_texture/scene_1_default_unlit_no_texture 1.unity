@@ -593,7 +593,7 @@ MonoBehaviour:
     Shader:
 
     -
-    Unlit
+    Unlit (default)
 
     - No texture
 

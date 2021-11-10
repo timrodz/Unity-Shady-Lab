@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 1_unlit_no_texture
+  m_Name: 1_default_unlit_no_texture
   m_Shader: {fileID: 4800000, guid: a7e088ff682d67c4a9d55798e9f237bf, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
