@@ -595,7 +595,7 @@ MonoBehaviour:
     -
     Unlit (default)
 
-    - No texture
+    - With texture
 
     - Colour: white'
   m_isRightToLeft: 0
