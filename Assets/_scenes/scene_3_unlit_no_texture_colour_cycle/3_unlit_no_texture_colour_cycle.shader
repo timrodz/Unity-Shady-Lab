@@ -1,3 +1,5 @@
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
 // Draws an unlit texture with cycling colours
 Shader "Shady Lab/3: Unlit (no texture), colour cycle"
 {

@@ -1,5 +1,5 @@
 // Draws an unlit texture with cycling colours multiplied by the Y-position
-Shader "Shady Lab/4: Unlit (no texture), colour cycle multiplied by Y-position"
+Shader "Shady Lab/4: Unlit (no texture), colour cycle multiplied by Y-vertex position"
 {
     Properties
     {
