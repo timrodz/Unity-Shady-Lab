@@ -274,7 +274,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 98b580f04679bd640b35616d94d08aea, type: 2}
+  - {fileID: 2100000, guid: f41c6c223ff2eaf4b9004b265c2fb7c1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -466,7 +466,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 98b580f04679bd640b35616d94d08aea, type: 2}
+  - {fileID: 2100000, guid: f41c6c223ff2eaf4b9004b265c2fb7c1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -586,7 +586,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Scene 2
+  m_text: 'Scene 3
 
     Setting: solid colour background, no light source(s)
 
@@ -597,7 +597,7 @@ MonoBehaviour:
 
     - No texture
 
-    - Colour: white'
+    - Colour: cycling w/ math (R: sin, G: cos, B: tan)'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -806,7 +806,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 98b580f04679bd640b35616d94d08aea, type: 2}
+  - {fileID: 2100000, guid: f41c6c223ff2eaf4b9004b265c2fb7c1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
