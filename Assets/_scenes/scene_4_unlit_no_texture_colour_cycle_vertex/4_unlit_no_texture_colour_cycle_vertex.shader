@@ -1,5 +1,5 @@
-// Draws an unlit texture with cycling colours
-Shader "Shady Lab/3: Unlit (no texture), colour cycle"
+// Draws an unlit texture with cycling colours multiplied by the Y-position
+Shader "Shady Lab/4: Unlit (no texture), colour cycle multiplied by Y-position"
 {
     Properties
     {
@@ -43,15 +43,15 @@ Shader "Shady Lab/3: Unlit (no texture), colour cycle"
             float4 frag (Interpolators i) : SV_Target {
                 // float4: r,g,b,a
                 float time = _Time * 10;
-                float channelSin = sin(time);
-                float channelCos = cos(time);
-                float channelTan = tan(time);
+                float channelSin = sin(time * i.vertex.y);
+                float channelCos = cos(time * i.vertex.y);
+                float channelTan = tan(time * i.vertex.y);
                 return float4(
                     channelSin,    // Red channel
                     channelCos,    // Green channel
                     channelTan,    // Blue channel
                     1              // Alpha channel
-                );
+                );             
             }
             ENDCG
         }
